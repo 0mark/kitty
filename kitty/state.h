@@ -49,6 +49,7 @@ typedef struct {
     color_type url_color, background, foreground, active_border_color, inactive_border_color, bell_border_color, tab_bar_background, tab_bar_margin_color;
     color_type mark1_foreground, mark1_background, mark2_foreground, mark2_background, mark3_foreground, mark3_background;
     monotonic_t repaint_delay, input_delay;
+    bool bold_is_bright;
     bool focus_follows_mouse;
     unsigned int hide_window_decorations;
     bool macos_hide_from_tasks, macos_quit_when_last_window_closed, macos_window_resizable, macos_traditional_fullscreen;

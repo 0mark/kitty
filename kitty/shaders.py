@@ -8,6 +8,7 @@ from typing import Any, Callable, Dict, Iterator, Optional, Set
 
 from .constants import read_kitty_resource
 from .fast_data_types import (
+    BOLD,
     BGIMAGE_PROGRAM,
     CELL_BG_PROGRAM,
     CELL_FG_PROGRAM,
@@ -155,6 +156,7 @@ class LoadShaderPrograms:
                 REVERSE_SHIFT=REVERSE,
                 STRIKE_SHIFT=STRIKETHROUGH,
                 DIM_SHIFT=DIM,
+                BOLD_SHIFT=BOLD,
                 DECORATION_SHIFT=DECORATION,
                 MARK_SHIFT=MARK,
                 MARK_MASK=MARK_MASK,
